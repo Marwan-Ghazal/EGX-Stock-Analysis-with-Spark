@@ -1,0 +1,7 @@
+ticker,anchor_price,end_price,prob_up,predicted,actual,correct,in_cone,n_days
+COMI,135.0,137.78,0.608,UP,UP,True,3,3
+TMGH,94.11,98.45,0.447,DOWN,UP,False,0,3
+ETEL,93.5,92.61,0.718,UP,DOWN,False,3,3
+SWDY,87.0,87.3,0.438,DOWN,UP,False,3,3
+EAST,39.82,39.01,0.528,UP,DOWN,False,2,3
+ABUK,90.75,85.0,0.595,UP,DOWN,False,1,3

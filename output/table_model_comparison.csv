@@ -1,0 +1,6 @@
+,RMSE,MAE,R²,RMSE Reduction vs. Baseline (%)
+Baseline (20-day persistence),0.019775,0.011244,-0.2231,0.0
+Linear Regression,0.018043,0.010904,-0.0183,8.8
+Random Forest,0.017325,0.00976,0.0612,12.4
+Gradient-Boosted Trees,0.016726,0.009698,0.1251,15.4
+LSTM,0.01617,0.009583,0.1822,18.2

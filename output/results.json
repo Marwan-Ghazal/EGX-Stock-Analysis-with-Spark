@@ -1,0 +1,40 @@
+{
+  "Baseline (20-day persistence)": {
+    "rmse": 0.019775329039441764,
+    "mae": 0.011244390419390056,
+    "r2": -0.22309744522956798,
+    "rmse_reduction_vs_baseline": 0.0
+  },
+  "Linear Regression": {
+    "rmse": 0.018043499475051895,
+    "mae": 0.010904277988068239,
+    "r2": -0.01825174924640449,
+    "rmse_reduction_vs_baseline": 8.757525909863478,
+    "train_time_sec": 2.2100369930267334
+  },
+  "Random Forest": {
+    "rmse": 0.017325312607149253,
+    "mae": 0.009760364416115571,
+    "r2": 0.061194162876900826,
+    "rmse_reduction_vs_baseline": 12.389257480398776,
+    "train_time_sec": 4.54970383644104
+  },
+  "Gradient-Boosted Trees": {
+    "rmse": 0.016725691942194452,
+    "mae": 0.009698424610010107,
+    "r2": 0.12505287308688817,
+    "rmse_reduction_vs_baseline": 15.421422779690952,
+    "train_time_sec": 9.914661169052124
+  },
+  "LSTM": {
+    "rmse": 0.016170415441517285,
+    "mae": 0.009583080187439919,
+    "r2": 0.18218318691205837,
+    "rmse_reduction_vs_baseline": 18.2293482486916,
+    "train_time_sec": 240.5437548160553
+  },
+  "Direction Classifier (GBT, 5d)": {
+    "accuracy_pct": 51.2681537071781,
+    "auc": 0.5108736012463075
+  }
+}
