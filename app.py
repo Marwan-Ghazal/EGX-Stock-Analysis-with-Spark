@@ -140,7 +140,7 @@ vol_view = (
 )
 
 st.markdown(
-    f"### {ticker} — anchored {anchor_ts:%b %d, %Y}  "
+    f"### {ticker} anchored {anchor_ts:%b %d, %Y}  "
     f"<span style='color:#6b7280;font-weight:400;font-size:0.85em;'>"
     f"σ̂ = {sigma_lstm:.4f} · cone covers {n_proj} trading day(s) forward"
     f"</span>",
